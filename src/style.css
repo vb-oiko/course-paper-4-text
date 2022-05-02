@@ -1,0 +1,45 @@
+body {
+  margin-left: 2cm;
+  font-size: 14px;
+  line-height: 21px;
+  width: 600px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.flowchart,
+h2,
+h3 {
+  text-align: left;
+  margin-block-start: 2rem;
+}
+
+.avoid-page-break-after {
+  page-break-after: avoid;
+}
+
+.page-break-before {
+  page-break-before: always;
+}
+
+pre,
+blockquote {
+  page-break-inside: avoid;
+}
+
+.align-center {
+  text-align: center;
+}
