@@ -1,7 +1,4 @@
 body {
-  font-size: 14px;
-  line-height: 21px;
-  /* width: 600px; */
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -9,21 +6,41 @@ img {
   width: 100%;
 }
 
-h1,
-h2,
-h3 {
-  font-size: 14px;
-}
-
 h1 {
+  font-size: 14pt;
+  font-weight: initial;
   text-align: center;
+  text-transform: capitalize;
+  break-before: page;
 }
 
-.flowchart,
 h2,
 h3 {
+  font-size: 14pt;
+  font-weight: initial;
   text-align: left;
-  margin-block-start: 2rem;
+  margin-block-start: 21pt;
+}
+
+p {
+  text-indent: 15mm;
+  text-align: justify;
+}
+
+p,
+ol,
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+li {
+  text-align: justify;
+}
+
+.flowchart {
+  text-align: left;
+  margin-block-start: 21pt;
 }
 
 .avoid-page-break-after {
@@ -50,11 +67,24 @@ blockquote {
 @media print {
   @page {
     size: A4;
-    margin: 10mm 15mm;
+    margin-top: 10mm;
+    margin-bottom: 10mm;
+    margin-left: 35mm;
+    margin-right: 15mm;
     bleed: 6mm;
-    marks: crop cross;
+    marks: crop;
+    font-size: 14pt;
+    line-height: 21pt;
+
+    @bottom-right-corner {
+      font-size: 14pt;
+      content: counter(page);
+    }
   }
-  /* .chapter {
-    break-before: right;
-  } */
+
+  @page :nth(1) {
+    @bottom-right-corner {
+      content: none;
+    }
+  }
 }
