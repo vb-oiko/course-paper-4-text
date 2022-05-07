@@ -1,8 +1,7 @@
 body {
-  margin-left: 2cm;
   font-size: 14px;
   line-height: 21px;
-  width: 600px;
+  /* width: 600px; */
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -42,4 +41,20 @@ blockquote {
 
 .align-center {
   text-align: center;
+}
+
+#app {
+  display: none;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 10mm 15mm;
+    bleed: 6mm;
+    marks: crop cross;
+  }
+  /* .chapter {
+    break-before: right;
+  } */
 }
