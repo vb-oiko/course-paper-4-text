@@ -1,11 +1,18 @@
 import intro from "./source/intro.md";
 import chapter1 from "./source/chapter1.md";
+import chapter2 from "./source/chapter2.md";
+import chapter3 from "./source/chapter3.md";
 
 import "./style.css";
 
 const app = document.getElementById("app");
 
-const sections = [intro, chapter1];
+const sections = [
+  // intro,
+  // chapter1,
+  // chapter2,
+  chapter3,
+];
 
 sections.forEach((section) => {
   const el = document.createElement("p");

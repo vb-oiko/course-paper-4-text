@@ -10,19 +10,23 @@ h1 {
   font-size: 14pt;
   font-weight: initial;
   text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
   break-before: page;
 }
 
 h2,
-h3 {
+h3,
+h4 {
   font-size: 14pt;
   font-weight: initial;
   text-align: left;
   margin-block-start: 21pt;
 }
 
-p {
+p,
+h4 {
+  margin-block-start: 14pt;
+  margin-block-end: 7pt;
   text-indent: 15mm;
   text-align: justify;
 }
@@ -64,6 +68,18 @@ blockquote {
   display: none;
 }
 
+.katex-table-sm > span.katex-display {
+  font-size: 12pt;
+  margin: 0;
+  margin-block-end: 14pt;
+}
+
+.katex-table-md > span.katex-display {
+  font-size: 13pt;
+  margin: 0;
+  margin-block-end: 14pt;
+}
+
 @media print {
   @page {
     size: A4;
@@ -76,14 +92,14 @@ blockquote {
     font-size: 14pt;
     line-height: 21pt;
 
-    @bottom-right-corner {
+    @top-right-corner {
       font-size: 14pt;
       content: counter(page);
     }
   }
 
   @page :nth(1) {
-    @bottom-right-corner {
+    @top-right-corner {
       content: none;
     }
   }
