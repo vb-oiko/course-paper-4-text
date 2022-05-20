@@ -2,6 +2,7 @@ import intro from "./source/intro.md";
 import chapter1 from "./source/chapter1.md";
 import chapter2 from "./source/chapter2.md";
 import chapter3 from "./source/chapter3.md";
+import chapter4 from "./source/chapter4.md";
 
 import "./style.css";
 
@@ -11,7 +12,8 @@ const sections = [
   // intro,
   // chapter1,
   // chapter2,
-  chapter3,
+  // chapter3,
+  chapter4,
 ];
 
 sections.forEach((section) => {
