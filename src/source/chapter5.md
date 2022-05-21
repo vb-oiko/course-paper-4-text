@@ -14,54 +14,54 @@ $$ x_{33} = 12.00, x_{34} = 7.00 $$
 <table>
     <thead>
         <tr>
-            <th class="cell"></th>    
-            <th class="cell">Тип 1</th>    
-            <th class="cell">Тип 2</th>    
-            <th class="cell">Тип 3</th>    
-            <th class="cell">Тип 4</th>    
-            <th class="cell">Тип 5</th>    
+            <th></th>    
+            <th>Тип 1</th>    
+            <th>Тип 2</th>    
+            <th>Тип 3</th>    
+            <th>Тип 4</th>    
+            <th>Тип 5</th>    
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td class="cell">Виріб 1</td>    
-            <td class="cell">10</td>    
-            <td class="cell"></td>    
-            <td class="cell">4</td>    
-            <td class="cell"></td>    
-            <td class="cell"></td>    
+            <td>Виріб 1</td>    
+            <td>10</td>    
+            <td></td>    
+            <td>4</td>    
+            <td></td>    
+            <td></td>    
         </tr>
         <tr>
-            <td class="cell">Виріб 2</td>    
-            <td class="cell"></td>    
-            <td class="cell"></td>    
-            <td class="cell">43</td>    
-            <td class="cell"></td>    
-            <td class="cell"></td>    
+            <td>Виріб 2</td>    
+            <td></td>    
+            <td></td>    
+            <td>43</td>    
+            <td></td>    
+            <td></td>    
         </tr>
         <tr>
-            <td class="cell">Виріб 3</td>    
-            <td class="cell"></td>    
-            <td class="cell">4</td>    
-            <td class="cell">12</td>    
-            <td class="cell">7</td>    
-            <td class="cell">5</td>    
+            <td>Виріб 3</td>    
+            <td></td>    
+            <td>4</td>    
+            <td>12</td>    
+            <td>7</td>    
+            <td>5</td>    
         </tr>
         <tr class="font-bold">
-            <td class="cell">Застосована кількість підприємств</td>    
-            <td class="cell">10</td>    
-            <td class="cell">4</td>    
-            <td class="cell">59</td>    
-            <td class="cell">7</td>    
-            <td class="cell">5</td>    
+            <td>Застосована кількість підприємств</td>    
+            <td>10</td>    
+            <td>4</td>    
+            <td>59</td>    
+            <td>7</td>    
+            <td>5</td>    
         </tr>
         <tr>
-            <td class="cell">Наявна кількість підприємств</td>    
-            <td class="cell">10</td>    
-            <td class="cell">4</td>    
-            <td class="cell">60</td>    
-            <td class="cell">7</td>    
-            <td class="cell">5</td>    
+            <td>Наявна кількість підприємств</td>    
+            <td>10</td>    
+            <td>4</td>    
+            <td>60</td>    
+            <td>7</td>    
+            <td>5</td>    
         </tr>
     </tbody>
 </table>
@@ -145,4 +145,4 @@ $$ \left(1 - \sqrt{\frac{1-\alpha_0}{\alpha_0}} \right) \overline{a}_{ij} \le a_
 
 #### Рис. 5.1. Графік змін кількості вироблених комплектів для задачі оптиміста, чіткої задачі та задачі песиміста в залежності від зміни значення ступеню недомінованості.
 
-![image5](./image/image5-1.png)
+![image5-1](./image/image5-1.png)
