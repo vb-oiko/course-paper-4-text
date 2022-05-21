@@ -80,6 +80,32 @@ blockquote {
   margin-block-end: 14pt;
 }
 
+.cell {
+  border: 1px solid black;
+  padding: 0.125rem 0.25rem;
+  text-align: center;
+}
+
+.cell:first-child {
+  border: 1px solid black;
+  padding: 0.125rem 0.25rem;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.break-before {
+  break-before: page;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
 @media print {
   @page {
     size: A4;
