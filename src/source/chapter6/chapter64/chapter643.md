@@ -1,256 +1,36 @@
-У таблиці 6.13. наведено значення змінних які будуть змінюватися у ході експерименту зі зміни продуктивності виготовлення виробу 2-го типу. Кількість вироблених комплектів виробів та розподіл виробничої програми між підприємствами наведено у таблиці 6.14. Відповідні графіки наведено на рисунку 6.7.
+Кількість вироблених комплектів виробів та розподіл виробничої програми між підприємствами при зміні кількості підприємств 3-го типу наведено у таблиці 6.22. Відповідні графіки наведено на рисунку 6.14.
 
-#### Таблиця 6.13. Вихідні значення експерименту при зміні продуктивності виробництва 2-го виробу на підприємствах усіх типів у відсотках від початкових значень
-
-<table>
-    <thead>
-        <tr>
-            <th>Відсоток зміни продуктивності при виробництві виробу 2-го типу</th>
-            <th>50%</th>
-            <th>60%</th>
-            <th>70%</th>
-            <th>80%</th>
-            <th>90%</th>
-            <th>100%</th>
-            <th>110%</th>
-            <th>120%</th>
-            <th>130%</th>
-            <th>140%</th>
-            <th>150%</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><span class="undefined cursor-pointer"><span><span><span class="katex"><span class="katex-mathml"><math>
-                                        <semantics>
-                                            <mrow>
-                                                <msub>
-                                                    <mi>a</mi>
-                                                    <mn>21</mn>
-                                                </msub>
-                                            </mrow>
-                                            <annotation encoding="application/x-tex">a_{21}</annotation>
-                                        </semantics>
-                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
-                                            class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span
-                                            class="mord"><span class="mord mathdefault">a</span><span
-                                                class="msupsub"><span class="vlist-t vlist-t2"><span
-                                                        class="vlist-r"><span class="vlist"
-                                                            style="height:0.30110799999999993em;"><span
-                                                                style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span
-                                                                    class="pstrut" style="height:2.7em;"></span><span
-                                                                    class="sizing reset-size6 size3 mtight"><span
-                                                                        class="mord mtight"><span
-                                                                            class="mord mtight">2</span><span
-                                                                            class="mord mtight">1</span></span></span></span></span><span
-                                                            class="vlist-s">​</span></span><span class="vlist-r"><span
-                                                            class="vlist"
-                                                            style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></span>
-            </td>
-            <td>35</td>
-            <td>42</td>
-            <td>49</td>
-            <td>56</td>
-            <td>63</td>
-            <td>70</td>
-            <td>77</td>
-            <td>84</td>
-            <td>91</td>
-            <td>98</td>
-            <td>105</td>
-        </tr>
-        <tr>
-            <td><span class="undefined cursor-pointer"><span><span><span class="katex"><span class="katex-mathml"><math>
-                                        <semantics>
-                                            <mrow>
-                                                <msub>
-                                                    <mi>a</mi>
-                                                    <mn>22</mn>
-                                                </msub>
-                                            </mrow>
-                                            <annotation encoding="application/x-tex">a_{22}</annotation>
-                                        </semantics>
-                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
-                                            class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span
-                                            class="mord"><span class="mord mathdefault">a</span><span
-                                                class="msupsub"><span class="vlist-t vlist-t2"><span
-                                                        class="vlist-r"><span class="vlist"
-                                                            style="height:0.30110799999999993em;"><span
-                                                                style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span
-                                                                    class="pstrut" style="height:2.7em;"></span><span
-                                                                    class="sizing reset-size6 size3 mtight"><span
-                                                                        class="mord mtight"><span
-                                                                            class="mord mtight">2</span><span
-                                                                            class="mord mtight">2</span></span></span></span></span><span
-                                                            class="vlist-s">​</span></span><span class="vlist-r"><span
-                                                            class="vlist"
-                                                            style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></span>
-            </td>
-            <td>50</td>
-            <td>60</td>
-            <td>70</td>
-            <td>80</td>
-            <td>90</td>
-            <td>100</td>
-            <td>110</td>
-            <td>120</td>
-            <td>130</td>
-            <td>140</td>
-            <td>150</td>
-        </tr>
-        <tr>
-            <td><span class="undefined cursor-pointer"><span><span><span class="katex"><span class="katex-mathml"><math>
-                                        <semantics>
-                                            <mrow>
-                                                <msub>
-                                                    <mi>a</mi>
-                                                    <mn>23</mn>
-                                                </msub>
-                                            </mrow>
-                                            <annotation encoding="application/x-tex">a_{23}</annotation>
-                                        </semantics>
-                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
-                                            class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span
-                                            class="mord"><span class="mord mathdefault">a</span><span
-                                                class="msupsub"><span class="vlist-t vlist-t2"><span
-                                                        class="vlist-r"><span class="vlist"
-                                                            style="height:0.30110799999999993em;"><span
-                                                                style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span
-                                                                    class="pstrut" style="height:2.7em;"></span><span
-                                                                    class="sizing reset-size6 size3 mtight"><span
-                                                                        class="mord mtight"><span
-                                                                            class="mord mtight">2</span><span
-                                                                            class="mord mtight">3</span></span></span></span></span><span
-                                                            class="vlist-s">​</span></span><span class="vlist-r"><span
-                                                            class="vlist"
-                                                            style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></span>
-            </td>
-            <td>150</td>
-            <td>180</td>
-            <td>210</td>
-            <td>240</td>
-            <td>270</td>
-            <td>300</td>
-            <td>330</td>
-            <td>360</td>
-            <td>390</td>
-            <td>420</td>
-            <td>450</td>
-        </tr>
-        <tr>
-            <td><span class="undefined cursor-pointer"><span><span><span class="katex"><span class="katex-mathml"><math>
-                                        <semantics>
-                                            <mrow>
-                                                <msub>
-                                                    <mi>a</mi>
-                                                    <mn>24</mn>
-                                                </msub>
-                                            </mrow>
-                                            <annotation encoding="application/x-tex">a_{24}</annotation>
-                                        </semantics>
-                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
-                                            class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span
-                                            class="mord"><span class="mord mathdefault">a</span><span
-                                                class="msupsub"><span class="vlist-t vlist-t2"><span
-                                                        class="vlist-r"><span class="vlist"
-                                                            style="height:0.30110799999999993em;"><span
-                                                                style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span
-                                                                    class="pstrut" style="height:2.7em;"></span><span
-                                                                    class="sizing reset-size6 size3 mtight"><span
-                                                                        class="mord mtight"><span
-                                                                            class="mord mtight">2</span><span
-                                                                            class="mord mtight">4</span></span></span></span></span><span
-                                                            class="vlist-s">​</span></span><span class="vlist-r"><span
-                                                            class="vlist"
-                                                            style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></span>
-            </td>
-            <td>50</td>
-            <td>60</td>
-            <td>70</td>
-            <td>80</td>
-            <td>90</td>
-            <td>100</td>
-            <td>110</td>
-            <td>120</td>
-            <td>130</td>
-            <td>140</td>
-            <td>150</td>
-        </tr>
-        <tr>
-            <td><span class="undefined cursor-pointer"><span><span><span class="katex"><span class="katex-mathml"><math>
-                                        <semantics>
-                                            <mrow>
-                                                <msub>
-                                                    <mi>a</mi>
-                                                    <mn>25</mn>
-                                                </msub>
-                                            </mrow>
-                                            <annotation encoding="application/x-tex">a_{25}</annotation>
-                                        </semantics>
-                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
-                                            class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span
-                                            class="mord"><span class="mord mathdefault">a</span><span
-                                                class="msupsub"><span class="vlist-t vlist-t2"><span
-                                                        class="vlist-r"><span class="vlist"
-                                                            style="height:0.30110799999999993em;"><span
-                                                                style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span
-                                                                    class="pstrut" style="height:2.7em;"></span><span
-                                                                    class="sizing reset-size6 size3 mtight"><span
-                                                                        class="mord mtight"><span
-                                                                            class="mord mtight">2</span><span
-                                                                            class="mord mtight">5</span></span></span></span></span><span
-                                                            class="vlist-s">​</span></span><span class="vlist-r"><span
-                                                            class="vlist"
-                                                            style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></span>
-            </td>
-            <td>200</td>
-            <td>240</td>
-            <td>280</td>
-            <td>320</td>
-            <td>360</td>
-            <td>400</td>
-            <td>440</td>
-            <td>480</td>
-            <td>520</td>
-            <td>560</td>
-            <td>600</td>
-        </tr>
-    </tbody>
-</table>
-
-#### Таблиця 6.14. Значення розв'язку задачі в залежності від зміни продуктивності виробництва 2-го виробу на підприємствах усіх типів у відсотках від початкових значень
+#### Таблиця 6.22. Значення розв'язку задачі в залежності від кількості підприємств 3-го типу
 
 <table>
     <thead>
         <tr>
-            <th>Відсоток зміни продуктивності при виробництві виробу 2-го типу</th>
-            <th>50%</th>
-            <th>60%</th>
-            <th>70%</th>
-            <th>80%</th>
-            <th>90%</th>
-            <th>100%</th>
-            <th>110%</th>
-            <th>120%</th>
-            <th>130%</th>
-            <th>140%</th>
-            <th>150%</th>
+            <th>Кількість підприємств 3-го типу </th>
+            <th>5</th>
+            <th>10</th>
+            <th>15</th>
+            <th>20</th>
+            <th>25</th>
+            <th>30</th>
+            <th>35</th>
+            <th>40</th>
+            <th>45</th>
+            <th>50</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>x</td>
-            <td>2278</td>
-            <td>2599</td>
-            <td>2799</td>
-            <td>2965</td>
-            <td>3109</td>
-            <td>3235</td>
-            <td>3346</td>
-            <td>3444</td>
-            <td>3531</td>
-            <td>3610</td>
-            <td>3681</td>
+            <td>1054</td>
+            <td>1318</td>
+            <td>1572</td>
+            <td>1824</td>
+            <td>2068</td>
+            <td>2295</td>
+            <td>2523</td>
+            <td>2689</td>
+            <td>2826</td>
+            <td>2962</td>
         </tr>
         <tr>
             <td><span class="undefined cursor-pointer"><span><span><span class="katex"><span class="katex-mathml"><math>
@@ -279,11 +59,10 @@
                                                             class="vlist"
                                                             style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></span>
             </td>
-            <td>10</td>
-            <td>10</td>
-            <td>10</td>
-            <td>10</td>
-            <td>10</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>9</td>
             <td>10</td>
             <td>10</td>
             <td>10</td>
@@ -319,16 +98,91 @@
                                                             style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></span>
             </td>
             <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
             <td>2</td>
             <td>2</td>
             <td>3</td>
+        </tr>
+        <tr>
+            <td><span class="undefined cursor-pointer"><span><span><span class="katex"><span class="katex-mathml"><math>
+                                        <semantics>
+                                            <mrow>
+                                                <msub>
+                                                    <mi>x</mi>
+                                                    <mn>21</mn>
+                                                </msub>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">x_{21}</annotation>
+                                        </semantics>
+                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                            class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span
+                                            class="mord"><span class="mord mathdefault">x</span><span
+                                                class="msupsub"><span class="vlist-t vlist-t2"><span
+                                                        class="vlist-r"><span class="vlist"
+                                                            style="height:0.30110799999999993em;"><span
+                                                                style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span
+                                                                    class="pstrut" style="height:2.7em;"></span><span
+                                                                    class="sizing reset-size6 size3 mtight"><span
+                                                                        class="mord mtight"><span
+                                                                            class="mord mtight">2</span><span
+                                                                            class="mord mtight">1</span></span></span></span></span><span
+                                                            class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                            class="vlist"
+                                                            style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></span>
+            </td>
+            <td>4</td>
             <td>3</td>
-            <td>4</td>
-            <td>4</td>
-            <td>4</td>
-            <td>5</td>
-            <td>5</td>
-            <td>5</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td><span class="undefined cursor-pointer"><span><span><span class="katex"><span class="katex-mathml"><math>
+                                        <semantics>
+                                            <mrow>
+                                                <msub>
+                                                    <mi>x</mi>
+                                                    <mn>22</mn>
+                                                </msub>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">x_{22}</annotation>
+                                        </semantics>
+                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                            class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span
+                                            class="mord"><span class="mord mathdefault">x</span><span
+                                                class="msupsub"><span class="vlist-t vlist-t2"><span
+                                                        class="vlist-r"><span class="vlist"
+                                                            style="height:0.30110799999999993em;"><span
+                                                                style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span
+                                                                    class="pstrut" style="height:2.7em;"></span><span
+                                                                    class="sizing reset-size6 size3 mtight"><span
+                                                                        class="mord mtight"><span
+                                                                            class="mord mtight">2</span><span
+                                                                            class="mord mtight">2</span></span></span></span></span><span
+                                                            class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                            class="vlist"
+                                                            style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></span>
+            </td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
         </tr>
         <tr>
             <td><span class="undefined cursor-pointer"><span><span><span class="katex"><span class="katex-mathml"><math>
@@ -357,17 +211,16 @@
                                                             class="vlist"
                                                             style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></span>
             </td>
-            <td>59</td>
-            <td>58</td>
-            <td>53</td>
-            <td>49</td>
-            <td>46</td>
-            <td>43</td>
-            <td>40</td>
-            <td>38</td>
-            <td>36</td>
-            <td>34</td>
-            <td>32</td>
+            <td>5</td>
+            <td>10</td>
+            <td>15</td>
+            <td>20</td>
+            <td>24</td>
+            <td>29</td>
+            <td>33</td>
+            <td>35</td>
+            <td>37</td>
+            <td>39</td>
         </tr>
         <tr>
             <td><span class="undefined cursor-pointer"><span><span><span class="katex"><span class="katex-mathml"><math>
@@ -396,13 +249,12 @@
                                                             class="vlist"
                                                             style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></span>
             </td>
+            <td>5</td>
+            <td>5</td>
+            <td>4</td>
+            <td>3</td>
+            <td>2</td>
             <td>1</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -435,9 +287,8 @@
                                                             class="vlist"
                                                             style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></span>
             </td>
-            <td>4</td>
-            <td>4</td>
-            <td>4</td>
+            <td>0</td>
+            <td>3</td>
             <td>4</td>
             <td>4</td>
             <td>4</td>
@@ -476,15 +327,14 @@
             </td>
             <td>0</td>
             <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
             <td>4</td>
             <td>7</td>
-            <td>10</td>
-            <td>12</td>
-            <td>14</td>
-            <td>16</td>
-            <td>18</td>
-            <td>20</td>
-            <td>21</td>
         </tr>
         <tr>
             <td><span class="undefined cursor-pointer"><span><span><span class="katex"><span class="katex-mathml"><math>
@@ -523,7 +373,6 @@
             <td>7</td>
             <td>7</td>
             <td>7</td>
-            <td>7</td>
         </tr>
         <tr>
             <td><span class="undefined cursor-pointer"><span><span><span class="katex"><span class="katex-mathml"><math>
@@ -552,14 +401,13 @@
                                                             class="vlist"
                                                             style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></span></span>
             </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
             <td>3</td>
-            <td>5</td>
-            <td>5</td>
-            <td>5</td>
-            <td>5</td>
-            <td>5</td>
-            <td>5</td>
-            <td>5</td>
+            <td>4</td>
             <td>5</td>
             <td>5</td>
             <td>5</td>
@@ -567,10 +415,10 @@
     </tbody>
 </table>
 
-#### Рисунок 6.7. Графік змін розв'язку задачі в залежності від зміни продуктивності виробництва 2-го виробу на підприємствах усіх типів у відсотках від початкових значень
+#### Рисунок 6.14. Графік змін розв'язку задачі в залежності від кількості підприємств 3-го типу.
 
-![image6-7](../../image/image6-7.png)
+![image6-14](../../image/image6-14.png)
 
-Як можна побачити з отриманих даних зміна продуктивності виробництва 2-го виробу досить суттєво впливає як на кількість вироблених комплектів виробів, так і на розподіл виробничої програми між підприємствами. 
+Як можна побачити з отриманих даних зміна кількості підприємств 3-го типу впливає на кількість вироблених комплектів підприємств, а також і на розподіл виробничої програми між підприємствами. 
 
-При зменшенні продуктивності на 50% кількість вироблених комплектів знижується приблизно на 30%. Щодо розподілу виробничої програми, зростає кількість підприємств третього типу, які орієнтовані на виготовлення виробу другого типу, та відповідно знижується кількість підприємств третього типу, орієнтованих на виготовлення виробів першого та третього типів. При збільшенні продуктивності на 50% кількість вироблених комплектів збільшується теж лише приблизно на 30%. У розподілі підприємств третього типу відбуваються відповідні протилежні зміни. Розподіл підприємств першого, другого, четвертого та п'ятого типів не змінюється.
+При збільшенні кількості підприємств 3-го типу з 5 до 50 кількість вироблених комплектів збільшується приблизно у 2.8 рази. Щодо розподілу виробничої програми, зростає кількість підприємств третього типу, які орієнтовані на виготовлення виробу другого типу. Розподіл підприємств четвертого типу не змінюється. Розподіл підприємств першого, другого та п'ятого типів змінюється незначною мірою.
