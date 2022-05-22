@@ -157,7 +157,7 @@ table {
     margin-left: 35mm;
     margin-right: 15mm;
     bleed: 6mm;
-    marks: crop;
+    /* marks: crop; */
     font-size: 14pt;
     line-height: 21pt;
 
@@ -168,6 +168,12 @@ table {
   }
 
   @page :nth(1) {
+    @top-right-corner {
+      content: none;
+    }
+  }
+
+  @page :nth(2) {
     @top-right-corner {
       content: none;
     }

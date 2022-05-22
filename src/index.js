@@ -38,9 +38,9 @@ const app = document.getElementById("app");
 
 const sections = [
   //
-  title,
-  // content,
-  intro,
+  // title,
+  content,
+  // intro,
   // chapter1,
   // chapter2,
   // chapter3,
