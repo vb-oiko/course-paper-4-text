@@ -1,3 +1,5 @@
+import title from "./source/title.md";
+import content from "./source/content.md";
 import intro from "./source/intro.md";
 import chapter1 from "./source/chapter1.md";
 import chapter2 from "./source/chapter2.md";
@@ -27,6 +29,8 @@ import chapter644 from "./source/chapter6/chapter64/chapter644.md";
 import chapter645 from "./source/chapter6/chapter64/chapter645.md";
 import chapter7 from "./source/chapter7.md";
 import conclusion from "./source/conclusion.md";
+import appendix from "./source/appendix.md";
+import bibliography from "./source/bibliography.md";
 
 import "./style.css";
 
@@ -34,6 +38,8 @@ const app = document.getElementById("app");
 
 const sections = [
   //
+  title,
+  content,
   intro,
   // chapter1,
   // chapter2,
@@ -63,6 +69,8 @@ const sections = [
   // chapter645,
   // chapter7,
   // conclusion,
+  appendix,
+  bibliography,
 ];
 
 sections.forEach((section) => {
