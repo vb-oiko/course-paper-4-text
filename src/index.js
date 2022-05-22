@@ -39,7 +39,7 @@ const app = document.getElementById("app");
 const sections = [
   //
   title,
-  content,
+  // content,
   intro,
   // chapter1,
   // chapter2,
@@ -69,8 +69,8 @@ const sections = [
   // chapter645,
   // chapter7,
   // conclusion,
-  appendix,
-  bibliography,
+  // appendix,
+  // bibliography,
 ];
 
 sections.forEach((section) => {

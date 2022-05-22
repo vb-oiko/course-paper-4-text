@@ -118,6 +118,37 @@ table {
   font-weight: 600;
 }
 
+.title-sheet {
+  text-align: center;
+}
+
+.title-sheet .header1 {
+  font-weight: 600;
+  margin-bottom: 6rem;
+}
+
+.title-sheet .header2 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.title-sheet .header3 {
+  text-align: left;
+  margin-left: 40%;
+}
+
+.footer {
+  margin-top: 15rem;
+  text-align: center;
+}
+
+.title-table {
+  border: none;
+  font-size: 14pt;
+  line-height: 21pt;
+  padding-top: 0.5rem;
+}
+
 @media print {
   @page {
     size: A4;
