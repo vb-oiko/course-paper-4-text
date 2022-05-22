@@ -5,6 +5,7 @@ import chapter3 from "./source/chapter3.md";
 import chapter4 from "./source/chapter4.md";
 import chapter5 from "./source/chapter5.md";
 import chapter6 from "./source/chapter6/chapter6.md";
+import chapter61 from "./source/chapter6/chapter61/chapter61.md";
 import chapter611 from "./source/chapter6/chapter61/chapter611.md";
 import chapter612 from "./source/chapter6/chapter61/chapter612.md";
 import chapter613 from "./source/chapter6/chapter61/chapter613.md";
@@ -17,13 +18,14 @@ const app = document.getElementById("app");
 
 const sections = [
   //
-  // intro,
-  // chapter1,
-  // chapter2,
-  // chapter3,
-  // chapter4,
-  // chapter5,
+  intro,
+  chapter1,
+  chapter2,
+  chapter3,
+  chapter4,
+  chapter5,
   chapter6,
+  chapter61,
   chapter611,
   chapter612,
   chapter613,
