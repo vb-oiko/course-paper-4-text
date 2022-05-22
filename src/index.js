@@ -34,7 +34,7 @@ const app = document.getElementById("app");
 
 const sections = [
   //
-  // intro,
+  intro,
   // chapter1,
   // chapter2,
   // chapter3,
@@ -62,7 +62,7 @@ const sections = [
   // chapter644,
   // chapter645,
   // chapter7,
-  conclusion,
+  // conclusion,
 ];
 
 sections.forEach((section) => {
