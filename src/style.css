@@ -179,3 +179,43 @@ table {
     }
   }
 }
+
+.content-table {
+}
+
+.content-row {
+}
+
+.content-title {
+  width: 97%;
+  text-align: left;
+  border: none;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  font-size: 14pt;
+  line-height: 21pt;
+}
+
+.content-title::after {
+  margin-left: 0.25rem;
+  position: absolute;
+  content: ".................................................................................................................";
+}
+
+.content-page {
+  text-align: right;
+  border: none;
+  overflow: hidden;
+  font-size: 14pt;
+  line-height: 21pt;
+}
+
+.content-chapter {
+  text-transform: uppercase;
+}
+
+.content-section {
+  text-transform: none;
+  padding-left: 1rem;
+}
