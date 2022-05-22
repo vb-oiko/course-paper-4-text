@@ -99,12 +99,7 @@ td {
   border: 1px solid black;
   padding: 0.125rem 0.25rem;
   text-align: center;
-}
-
-.cell:first-child {
-  border: 1px solid black;
-  padding: 0.125rem 0.25rem;
-  text-align: left;
+  line-height: initial;
 }
 
 table {
