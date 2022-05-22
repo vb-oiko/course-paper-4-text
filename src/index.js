@@ -15,6 +15,10 @@ import chapter62 from "./source/chapter6/chapter62/chapter62.md";
 import chapter621 from "./source/chapter6/chapter62/chapter621.md";
 import chapter622 from "./source/chapter6/chapter62/chapter622.md";
 import chapter623 from "./source/chapter6/chapter62/chapter623.md";
+import chapter63 from "./source/chapter6/chapter63/chapter63.md";
+import chapter631 from "./source/chapter6/chapter63/chapter631.md";
+import chapter632 from "./source/chapter6/chapter63/chapter632.md";
+import chapter633 from "./source/chapter6/chapter63/chapter633.md";
 
 import "./style.css";
 
@@ -35,10 +39,14 @@ const sections = [
   // chapter613,
   // chapter614,
   // chapter615,
-  chapter62,
-  chapter621,
-  chapter622,
-  chapter623,
+  // chapter62,
+  // chapter621,
+  // chapter622,
+  // chapter623,
+  chapter63,
+  chapter631,
+  chapter632,
+  chapter633,
 ];
 
 sections.forEach((section) => {
