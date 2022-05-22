@@ -25,6 +25,7 @@ import chapter642 from "./source/chapter6/chapter64/chapter642.md";
 import chapter643 from "./source/chapter6/chapter64/chapter643.md";
 import chapter644 from "./source/chapter6/chapter64/chapter644.md";
 import chapter645 from "./source/chapter6/chapter64/chapter645.md";
+import chapter7 from "./source/chapter7.md";
 
 import "./style.css";
 
@@ -53,12 +54,13 @@ const sections = [
   // chapter631,
   // chapter632,
   // chapter633,
-  chapter64,
-  chapter641,
-  chapter642,
-  chapter643,
-  chapter644,
-  chapter645,
+  // chapter64,
+  // chapter641,
+  // chapter642,
+  // chapter643,
+  // chapter644,
+  // chapter645,
+  chapter7,
 ];
 
 sections.forEach((section) => {
