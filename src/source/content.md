@@ -46,11 +46,11 @@
         <td class="content-page">55</td>
     </tr>
     <tr class="content-row">
-        <td class="content-title content-chapter">Додаток А. Вихідний код основних алгоритмів</td>
+        <td class="content-title content-chapter">Список використаної літератури</td>
         <td class="content-page">55</td>
     </tr>
     <tr class="content-row">
-        <td class="content-title content-chapter">Список літератури</td>
+        <td class="content-title content-chapter">Додаток А</td>
         <td class="content-page">55</td>
     </tr>
 </table>

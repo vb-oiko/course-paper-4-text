@@ -41,6 +41,16 @@ h4 {
   text-align: justify;
 }
 
+.source-1 {
+  text-indent: -5mm;
+  padding-left: 5mm;
+}
+
+.source-2 {
+  text-indent: -7.5mm;
+  padding-left: 7.5mm;
+}
+
 img {
   margin-left: -15mm;
 }
@@ -161,20 +171,20 @@ table {
     font-size: 14pt;
     line-height: 21pt;
 
-    @top-right-corner {
+    @bottom-right-corner {
       font-size: 14pt;
       content: counter(page);
     }
   }
 
   @page :nth(1) {
-    @top-right-corner {
+    @bottom-right-corner {
       content: none;
     }
   }
 
   @page :nth(2) {
-    @top-right-corner {
+    @bottom-right-corner {
       content: none;
     }
   }
